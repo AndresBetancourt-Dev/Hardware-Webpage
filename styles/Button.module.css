@@ -1,0 +1,63 @@
+.Button {
+  color: white;
+  padding: 0.5em;
+  background: linear-gradient(
+    90deg,
+    rgb(8, 113, 255),
+    rgb(132, 55, 255),
+    rgb(291, 4, 204)
+  );
+  border-radius: 0.25em;
+  max-width: 200px;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  animation: buttonAnimation 1.5s linear infinite;
+}
+
+.Button:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(8, 113, 255),
+    rgb(132, 55, 255),
+    rgb(291, 4, 204)
+  );
+  transform: scale(1.2, 1.2);
+  animation: none;
+}
+
+@media screen and (max-width: 500px) {
+  .Button {
+    font-size: 2.5vw;
+    max-width: 100px;
+  }
+}
+
+@keyframes buttonAnimation {
+  0% {
+    background: linear-gradient(
+      90deg,
+      rgb(8, 113, 255),
+      rgb(132, 55, 255),
+      rgb(291, 4, 204)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      90deg,
+      rgb(291, 4, 204),
+      rgb(8, 113, 255),
+      rgb(132, 55, 255)
+    );
+  }
+  100% {
+    background: linear-gradient(
+      90deg,
+      rgb(132, 55, 255),
+      rgb(291, 4, 204),
+      rgb(8, 113, 255)
+    );
+  }
+}

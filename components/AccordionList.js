@@ -12,14 +12,14 @@ export default function AccordionList() {
         className={styles.UnorganizedList}
       >
         {items.map((item) => (
-          <Item key={item} />
+          <Item key={item.key} item={item} />
         ))}
       </motion.ul>
     </AnimateSharedLayout>
   );
 }
 
-function Item() {
+function Item({ item }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => setIsOpen(!isOpen);
@@ -32,12 +32,12 @@ function Item() {
       className={styles.ListItem}
     >
       <motion.div className={styles.Avatar} layout />
-      <AnimatePresence>{isOpen && <Content />}</AnimatePresence>
+      <AnimatePresence>{isOpen && <Content item={item} />}</AnimatePresence>
     </motion.li>
   );
 }
 
-function Content() {
+function Content({ item }) {
   return (
     <motion.div
       layout
@@ -45,11 +45,13 @@ function Content() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className={styles.Row} />
-      <div className={styles.Row} />
-      <div className={styles.Row} />
+      <div className={styles.Row}>{item.title}</div>
     </motion.div>
   );
 }
 
-const items = [0, 1, 2];
+const items = [
+  { key: "1", title: "Mantenimiento Xbox" },
+  { key: "2", title: "Mantenimiento Celulares" },
+  { key: "3", title: "Programar Propia Calculadora" },
+];
