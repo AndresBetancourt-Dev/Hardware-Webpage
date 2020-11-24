@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -12,25 +12,31 @@
 }
 
 .video {
-  width: 80%;
+  width: 100%;
 }
 
 .videoContent {
-  width: 80%;
-  height: 100%;
-  min-height: 100vh;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.25), rbga(0, 0, 0, 0.5));
+  width: 100%;
+  height: 99%;
+  background: rgba(0, 0, 0, 0.45);
   position: absolute;
+  z-index: 56;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-left: 4vw;
 }
 
 .videoContentText {
-  position: absolute;
   color: white;
+  font-size: 8vw;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    height: 100%;
+  }
 }
