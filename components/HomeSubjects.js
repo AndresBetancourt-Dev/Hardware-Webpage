@@ -38,8 +38,8 @@ const items = [
   },
   {
     key: "3",
-    title: "Programar Propia Calculadora",
+    title: "Programar Calculadora",
     path: "/Calculator",
-    image: "/images/Subjects/Xbox.png",
+    image: "/images/Subjects/Calculadora-neon.png",
   },
 ];

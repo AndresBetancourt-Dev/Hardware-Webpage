@@ -10,4 +10,61 @@
 .Title,
 .Text {
   color: white;
+  text-align: center;
+}
+
+.Title {
+  font-size: 5vw;
+
+  margin: 0;
+}
+
+.Text {
+  font-size: 2.5vw;
+}
+
+.Item {
+  width: 50%;
+  height: 100%;
+}
+
+.Item:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Options {
+  display: flex;
+}
+
+.Options p {
+  width: 30%;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .Container {
+    flex-direction: column;
+  }
+
+  .Item {
+    width: 100%;
+  }
+
+  .Title {
+    font-size: 6vw;
+  }
+
+  .Text {
+    font-size: 4vw;
+  }
+
+  .Item {
+    margin: 50px 0;
+  }
+  .Item:first-child {
+    margin: 100px 0;
+  }
 }

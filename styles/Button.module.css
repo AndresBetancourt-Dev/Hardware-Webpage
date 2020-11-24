@@ -9,12 +9,32 @@
   );
   border-radius: 0.25em;
   max-width: 200px;
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: center;
   font-weight: bold;
   box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.5);
   transition: 1s;
   animation: buttonAnimation 1.5s linear infinite;
+}
+
+.ButtonXbox {
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  max-width: 200px;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  background: rgb(86, 192, 19);
+  animation: none;
+}
+
+.Button:hover,
+.ButtonXbox:hover {
+  transform: scale(1.2, 1.2);
+  animation: none;
 }
 
 .Button:hover {
@@ -24,13 +44,11 @@
     rgb(132, 55, 255),
     rgb(291, 4, 204)
   );
-  transform: scale(1.2, 1.2);
-  animation: none;
 }
 
 @media screen and (max-width: 500px) {
   .Button {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     max-width: 100px;
   }
 }

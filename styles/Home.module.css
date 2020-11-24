@@ -59,7 +59,7 @@
 }
 
 .Title {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 .Text {
@@ -75,5 +75,13 @@
 @media screen and (max-width: 600px) {
   .SubjectContainer {
     flex-direction: column;
+  }
+
+  .Title {
+    font-size: 6vw;
+  }
+
+  .Text {
+    font-size: 4vw;
   }
 }
