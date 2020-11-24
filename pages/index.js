@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Home from "./Home";
+import Home from "../pages/Home";
 
 export default function Index() {
   return <Home />;

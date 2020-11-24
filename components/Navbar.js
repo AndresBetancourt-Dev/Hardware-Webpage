@@ -7,8 +7,11 @@ const Navbar = () => {
       <Link href={"/"}>
         <a className={styles.NavbarLink}>Home</a>
       </Link>
+      <Link href={"/#temas"}>
+        <a className={styles.NavbarLink}>Temas</a>
+      </Link>
       <Link href={"/Calculator"}>
-        <a className={styles.NavbarLink}>Calculator</a>
+        <a className={styles.NavbarLink}>Calculadora</a>
       </Link>
       <Link href={"/Components"}>
         <a className={styles.NavbarLink}>Components</a>

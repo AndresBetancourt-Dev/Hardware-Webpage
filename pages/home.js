@@ -1,8 +1,8 @@
 import styles from "../styles/Home.module.css";
 import Layout from "../components/Layout";
 import HomeVideo from "../components/HomeVideo";
-import AccordionList from "../components/AccordionList";
 import Head from "next/head";
+import HomeSubjects from "../components/HomeSubjects";
 
 const Home = () => {
   return (
@@ -16,10 +16,7 @@ const Home = () => {
       </Head>
       <div className={styles.Container}>
         <HomeVideo />
-        <div className={styles.ContentContainer}>
-          <h2></h2>
-          <AccordionList />
-        </div>
+        <HomeSubjects />
       </div>
     </Layout>
   );

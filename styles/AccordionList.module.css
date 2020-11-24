@@ -6,7 +6,7 @@
 }
 
 .UnorganizedList {
-  width: 300px;
+  width: 80vh;
   display: flex;
   flex-direction: column;
   background: white;
