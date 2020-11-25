@@ -9,7 +9,7 @@ const Smartphone = () => {
       <div className={styles.Container}>
         <div className={styles.Item}>
           <Image
-            src="/images/Subjects/SmartPhone.gif"
+            src="/images/Subjects/smartphone-gif.gif"
             alt={"Smartphone"}
             layout={"responsive"}
             width={100}

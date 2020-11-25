@@ -13,7 +13,7 @@ const Navbar = () => {
       <Link href={"/Calculator"}>
         <a className={styles.NavbarLink}>Calculadora</a>
       </Link>
-      <Link href={"/Components"}>
+      <Link href={"/Componentes"}>
         <a className={styles.NavbarLink}>Components</a>
       </Link>
     </div>

@@ -34,12 +34,12 @@ const items = [
     key: "2",
     title: "Mantenimiento Celulares",
     path: "/Smartphone",
-    image: "/images/Subjects/SmartPhone.gif",
+    image: "/images/Subjects/smartphone-gif.gif",
   },
   {
     key: "3",
     title: "Programar Calculadora",
     path: "/Calculator",
-    image: "/images/Subjects/calculadora-neon.png",
+    image: "/images/Subjects/calculadoraneon.png",
   },
 ];

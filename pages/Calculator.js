@@ -30,7 +30,7 @@ const Calculator = () => {
         </div>
         <div className={styles.Item}>
           <Image
-            src={"/images/Subjects/calculadora-neon.png"}
+            src={"/images/Subjects/calculadoraneon.png"}
             alt={"Calculadora"}
             layout={"responsive"}
             width={100}
