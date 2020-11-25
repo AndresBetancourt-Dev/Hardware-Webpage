@@ -13,6 +13,9 @@ const Navbar = () => {
       <Link href={"/Calculator"}>
         <a className={styles.NavbarLink}>Calculadora</a>
       </Link>
+      <Link href={"/Components"}>
+        <a className={styles.NavbarLink}>Components</a>
+      </Link>
     </div>
   );
 };
