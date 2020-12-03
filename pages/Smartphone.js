@@ -2,10 +2,18 @@ import React from "react";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import styles from "../styles/Smartphone.module.css";
+import Head from "next/head";
 
 const Smartphone = () => {
   return (
     <Layout>
+      <Head>
+        <title>Smartphone</title>
+        <meta
+          name="description"
+          content="La propuesta de realizar mantenimiento a un dispostivo móvil inteligente."
+        />
+      </Head>
       <div className={styles.Container}>
         <div className={styles.Item}>
           <Image
