@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 import styles from "../styles/Error.module.css";
+import Head from "next/head";
 
 const Error = () => {
   return (
