@@ -36,7 +36,6 @@ const Calculator = () => {
             width={100}
             height={100}
             className={styles.Image}
-            loading={"lazy"}
           />
         </div>
       </div>

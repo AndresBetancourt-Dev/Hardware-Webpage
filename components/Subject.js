@@ -17,7 +17,6 @@ const Subject = ({ image, title, path, alternative }) => {
           width={200}
           height={200}
           className={styles.Image}
-          loading={"lazy"}
         />
         <div className={styles.Content}>
           <h3 className={styles.Title}>{title}</h3>
