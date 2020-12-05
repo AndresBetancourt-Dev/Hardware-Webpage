@@ -1,0 +1,34 @@
+.Container {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.Cuadro{
+    background-color: #6f4976;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+
+.textoParrafo{
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 15px;
+    color: white;
+    margin-top: 90px;
+}
+
+

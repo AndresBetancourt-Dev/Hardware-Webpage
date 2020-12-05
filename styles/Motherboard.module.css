@@ -1,0 +1,62 @@
+.Container {
+    display: flex;
+    margin-top: 2%;
+}
+
+.Text {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.SubText{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+    cursor: pointer;
+  font-weight: bold;
+}
+.Nav{
+    width: 100%;
+    margin-top: 10px;
+    height: 20px;
+    z-index: 10;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+.Cuadro{
+    background-color: #0d1115;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-direction: row;
+    
+    
+}
+.Cuadro2{
+    background-color: #0d1115;
+    width: 90%;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+  
+.textoParrafo{
+    margin-bottom: 37%;
+    margin-left: 15%;
+    margin-right: 5%;
+    
+    font-size: 15px;
+    color: white;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    margin-top:40% ;
+    margin-left: 15%;
+    vertical-align: middle;
+    font-weight: bold;
+    
+    
+}

@@ -13,8 +13,11 @@ const Navbar = () => {
       <Link href={"/Calculator"}>
         <a className={styles.NavbarLink}>Calculadora</a>
       </Link>
-      <Link href={"/Components"}>
-        <a className={styles.NavbarLink}>Components</a>
+      <Link href={"/circuitos"}>
+        <a className={styles.NavbarLink}>Circuitos</a>
+      </Link>
+      <Link href={"/procesador"}>
+        <a className={styles.NavbarLink}>Componentes</a>
       </Link>
     </div>
   );

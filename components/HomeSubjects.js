@@ -42,4 +42,17 @@ const items = [
     path: "/Calculator",
     image: "/images/Subjects/Calculadora-neon.png",
   },
+
+  {
+    key: "4",
+    title: "Circuitos",
+    path: "/circuitos",
+    image: "/images/Subjects/circuito.png",
+  },
+  {
+    key: "5",
+    title: "Componentes",
+    path: "/procesador",
+    image: "/images/Subjects/torre2.gif",
+  },
 ];
